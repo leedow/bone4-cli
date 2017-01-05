@@ -14,10 +14,10 @@
 export default function getOptions(data, valName, textName) {
   const op = []
   data.forEach((item) => {
-    op.push({
-      value: item[valName],
-      text: item[textName]
-    })
+    const tmp = item
+    tmp.value = item[valName]
+    tmp.text = item[textName]
+    op.push(tmp)
   })
   return op
 }

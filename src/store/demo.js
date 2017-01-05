@@ -24,10 +24,16 @@ export default {
     data: [],
     selectData: [{
       id: 1,
-      name: 'test'
+      url: 'https://github.com/leedow/bone4-cli',
+      name: '导航'
     }, {
       id: 2,
-      name: 'test2'
+      url: 'https://github.com/leedow/bone4-cli/tree/master/src/store',
+      name: 'vuex开发说明及规范'
+    }, {
+      id: 3,
+      url: 'https://github.com/leedow/bone4-cli/tree/master/src/router',
+      name: 'vue-router开发说明及规范'
     }]
   },
   mutations: {
