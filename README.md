@@ -1,27 +1,16 @@
-# testvue
+# BoBo
 
-> testvuecli
+Vue 2.0 移动端工程模板
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
+## 目录结构
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- dist 编译文件
+- src 开发文件
+ - assets 资源文件
+ - components 组件目录
+ - helper 辅助功能模块
+ - page 单页组件目录
+ - service 业务处理模块目录
+ - store Vuex目录
+ - main.js 主入口
